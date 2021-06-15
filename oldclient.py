@@ -1,0 +1,3 @@
+from xmlrpc.client import ServerProxy # ... or simply Server, if you prefer
+s = ServerProxy('http://localhost:4242') # Localhost again...
+s.twice(2)
